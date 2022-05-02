@@ -15,14 +15,15 @@ public class ApplicationManager {
         wd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         wd.navigate().to("https://ilcarro.xyz/");
         user = new HelperUser(wd);
+
     }
 
     public void stop(){
         wd.quit();
+
     }
 
     public HelperUser user() {
         return user;
     }
-
 }
