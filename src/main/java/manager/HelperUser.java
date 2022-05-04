@@ -1,6 +1,8 @@
 package manager;
 
 
+import models.Auth;
+import models.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Rectangle;
 import org.openqa.selenium.WebDriver;
@@ -22,6 +24,20 @@ public class HelperUser extends HelperBase {
         type(By.id("password"), password);
 
     }
+    public void fillRegistrationForm(User user) {
+        type(By.id("name"), user.getName());
+        type(By.id("lastName"), user.getLastName());
+        type(By.id("email"), user.getEmail());
+        type(By.id("password"), user.getPassword());
+
+    }
+    public void fillRegistrationForm(Auth auth) {
+        type(By.id("name"), auth.getName());
+        type(By.id("lastName"), auth.getLastName());
+        type(By.id("email"), auth.getEmail());
+        type(By.id("password"), auth.getPassword());
+
+    }
 
     public void checkPolicy() {
         click(By.cssSelector("label[for='terms-of-use']"));
@@ -38,9 +54,21 @@ public class HelperUser extends HelperBase {
 
         Actions actions = new Actions(wd);
         actions.moveToElement(label).moveByOffset(-xOffSet,-yOffSet).click().release().perform();
+    }
 
+    public String checkMessage() {
+        return wd.findElement(By.cssSelector(".dialog-container h2")).getText();
 
     }
 
+    public void clickOkButton() {
+        click(By.xpath("//button[text()='Ok']"));
+    }
+    public boolean isLogOutPresent() {
+        return isElementPresent(By.xpath("//a[text()=' Logout ']"));
+    }
 
+    public void logout() {
+        click(By.xpath("//a[text()=' Logout ']"));
+    }
 }
