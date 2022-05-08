@@ -57,9 +57,10 @@ public class HelperUser extends HelperBase {
     }
 
     public String checkMessage() {
+        pause(1000);
         return wd.findElement(By.cssSelector(".dialog-container h2")).getText();
 
-        
+
     }
 
     public void clickOkButton() {
