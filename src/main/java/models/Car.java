@@ -25,7 +25,7 @@ public class Car {
     String carRegNumber;
     String price;
     String distanceIncluded;
-    String feautures;
+    String features;
     String about;
 
 

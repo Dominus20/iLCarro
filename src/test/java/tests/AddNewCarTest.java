@@ -1,7 +1,6 @@
 package tests;
 
 import models.Car;
-import models.User;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -20,4 +19,5 @@ public class AddNewCarTest {
                 .build();
 
     }
+
 }
