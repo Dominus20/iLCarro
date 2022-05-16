@@ -8,6 +8,7 @@ import java.util.concurrent.TimeUnit;
 public class ApplicationManager {
     WebDriver wd;
     HelperUser user;
+    HelperCar car;
 
     public void init(){
         wd = new ChromeDriver();
@@ -15,6 +16,7 @@ public class ApplicationManager {
         wd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         wd.navigate().to("https://ilcarro.xyz/");
         user = new HelperUser(wd);
+        car = new HelperCar(wd);
 
     }
 
@@ -25,5 +27,9 @@ public class ApplicationManager {
 
     public HelperUser user() {
         return user;
+    }
+
+    public HelperCar car() {
+        return car;
     }
 }

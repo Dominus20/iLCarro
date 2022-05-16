@@ -8,6 +8,8 @@ import org.openqa.selenium.Rectangle;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HelperUser extends HelperBase {
     public HelperUser(WebDriver wd) {
@@ -57,10 +59,10 @@ public class HelperUser extends HelperBase {
     }
 
     public String checkMessage() {
-        pause(1000);
+       // pause(1000);
+        new WebDriverWait(wd, 10)
+                .until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector(".dialog-container"))));
         return wd.findElement(By.cssSelector(".dialog-container h2")).getText();
-
-
     }
 
     public void clickOkButton() {
@@ -72,5 +74,33 @@ public class HelperUser extends HelperBase {
 
     public void logout() {
         click(By.xpath("//a[text()=' Logout ']"));
+    }
+
+
+    public void fillLoginForm(String email, String password) {
+        type(By.id("email"), email);
+        type(By.id("password"),password);
+    }
+
+    public void fillLoginForm(User user) {
+        type(By.id("email"), user.getEmail());
+        type(By.id("password"),user.getPassword());
+    }
+    public void fillLoginForm(Auth auth) {
+        type(By.id("email"), auth.getEmail());
+        type(By.id("password"), auth.getPassword());
+    }
+
+    public void openLoginForm() {
+        click(By.cssSelector("[href^='/login']"));
+    }
+
+    public void login(Auth auth) {
+        openLoginForm();
+        fillLoginForm(auth);
+        submit();
+        clickOkButton();
+       pause(500);
+
     }
 }
