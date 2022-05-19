@@ -7,6 +7,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class AddNewCarTest extends TestBase {
+
     @BeforeMethod
     public void precondition(){
         if(!app.user().isLogOutPresent()){
@@ -40,11 +41,11 @@ public class AddNewCarTest extends TestBase {
                 .about("very nice car")
                 .build();
 
-
+        logger.info("Tests start with car ---> "+car.toString());
         app.car().openCarForm();
         app.car().fillCarForm(car);
-        app.car().attachPhoto();//attach
-        app.car().submitCarForm();
+        app.car().attachPhoto("D:\\QA_TelRan\\iLCarro\\auto2.jpeg");//attach
+     //   app.car().submitCarForm();
 
 
     }
