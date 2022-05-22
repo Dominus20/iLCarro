@@ -30,6 +30,18 @@ public class HelperCar extends HelperBase{
         select(By.id("wheelsDrive"),car.getWD());
 
         type(By.id("doors"), car.getDoors());
+        type(By.id("seats"), car.getSeats());
+        type(By.id("class"), car.getCarClass());
+
+       /* select*/type(By.id("fuelConsumption"), car.getFuelConsumption());
+        type(By.id("serialNumber"), car.getCarRegNumber());
+
+       /* select*/type(By.id("price"), car.getPrice());
+       /* select*/type(By.id("distance"), car.getDistanceIncluded());
+       // Features
+
+
+
 
 
 

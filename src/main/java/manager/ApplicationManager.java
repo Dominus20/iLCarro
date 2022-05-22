@@ -12,6 +12,7 @@ public class ApplicationManager {
     WebDriver wd;
     HelperUser user;
     HelperCar car;
+    HelperSearch search;
 
     public void init(){
         wd = new ChromeDriver();
@@ -22,6 +23,7 @@ public class ApplicationManager {
         logger.info("The link of project -->"+wd.getCurrentUrl());
         user = new HelperUser(wd);
         car = new HelperCar(wd);
+        search = new HelperSearch(wd);
 
     }
 
@@ -36,5 +38,9 @@ public class ApplicationManager {
 
     public HelperCar car() {
         return car;
+    }
+
+    public HelperSearch search() {
+        return search;
     }
 }
