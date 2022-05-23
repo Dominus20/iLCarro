@@ -31,24 +31,24 @@ public class HelperCar extends HelperBase{
 
         type(By.id("doors"), car.getDoors());
         type(By.id("seats"), car.getSeats());
-        type(By.id("class"), car.getCarClass());
+      type(By.id("class"), car.getCarClass());
 
-       /* select*/type(By.id("fuelConsumption"), car.getFuelConsumption());
-        type(By.id("serialNumber"), car.getCarRegNumber());
+     type(By.id("fuelConsumption"), car.getFuelConsumption());
+//     select(By.id("serialNumber"), car.getCarRegNumber());
+//
+//      type(By.id("price"), car.getPrice());
+//       type(By.id("distance"), car.getDistanceIncluded());
 
-       /* select*/type(By.id("price"), car.getPrice());
-       /* select*/type(By.id("distance"), car.getDistanceIncluded());
-       // Features
+       // Features*/
 
 
-
+}
 
 
 
         //fuel + gear+ wd---> select
 
        // type(By.id(), car.getMake());
-    }
 
     public void select(By locator, String option) {
 //        new Select(wd.findElement(By.id("fuel"))).selectByIndex(4);

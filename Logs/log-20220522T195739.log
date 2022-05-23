@@ -1,3 +1,0 @@
-19:57:41.275 INFO  manager.ApplicationManager - Tests start in Chrome driver
-19:57:42.863 INFO  manager.ApplicationManager - The link of project -->https://ilcarro.xyz/search
-19:57:42.893 INFO  tests.TestBase - SL: Name of method--->searchPeriodCurrentMonth

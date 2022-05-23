@@ -1,5 +1,0 @@
-19:20:54.110 INFO  manager.ApplicationManager - Tests start in Chrome driver
-19:20:56.044 INFO  manager.ApplicationManager - The link of project -->https://ilcarro.xyz/search
-19:20:56.068 INFO  tests.TestBase - SL: Name of method--->loginSuccessUser
-19:21:01.113 INFO  tests.TestBase - Test start with data: "noa@gmail.com", "Nnoa12345$"
-19:21:02.155 INFO  tests.TestBase - Assert check message: "Logged in success"
