@@ -9,15 +9,15 @@ import org.slf4j.LoggerFactory;
 import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager {
-    EventFiringWebDriver wd;
+  //  EventFiringWebDriver wd;
     Logger logger = LoggerFactory.getLogger(ApplicationManager.class);
-  //  WebDriver wd;
+   WebDriver wd;
     HelperUser user;
     HelperCar car;
     HelperSearch search;
 
     public void init(){
-     //   wd = new ChromeDriver();
+      wd = new ChromeDriver();
         logger.info("Tests start in Chrome driver");
         wd.manage().window().maximize();
         wd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);

@@ -35,10 +35,11 @@ public class HelperCar extends HelperBase{
 
      type(By.id("fuelConsumption"), car.getFuelConsumption());
 /*type(By.cssSelector("input[class='ng-pristine ng-invalid ng-touched']"), car.getCarRegNumber());*/
-     // type(By.id("serialNumber"), car.getCarRegNumber());
+     type(By.id("serialNumber"), car.getCarRegNumber());
        type(By.id("price"), car.getPrice());
        type(By.id("distance"), car.getDistanceIncluded());
- //      type(By.cssSelector("input[class='feature-input']"), car.getFeatures());
+  //   type(By.cssSelector("input[class='feature-input']"), car.getFeatures());
+       type(By.cssSelector("input[placeholder='Type feature']"), car.getFeatures());
        type(By.id("about"), car.getAbout());
 ////
 
