@@ -34,12 +34,13 @@ public class HelperCar extends HelperBase{
       type(By.id("class"), car.getCarClass());
 
      type(By.id("fuelConsumption"), car.getFuelConsumption());
-//     select(By.id("serialNumber"), car.getCarRegNumber());
-//
-//      type(By.id("price"), car.getPrice());
-//       type(By.id("distance"), car.getDistanceIncluded());
-
-       // Features*/
+/*type(By.cssSelector("input[class='ng-pristine ng-invalid ng-touched']"), car.getCarRegNumber());*/
+     // type(By.id("serialNumber"), car.getCarRegNumber());
+       type(By.id("price"), car.getPrice());
+       type(By.id("distance"), car.getDistanceIncluded());
+ //      type(By.cssSelector("input[class='feature-input']"), car.getFeatures());
+       type(By.id("about"), car.getAbout());
+////
 
 
 }
@@ -66,6 +67,7 @@ public class HelperCar extends HelperBase{
     }
 
     public void submitCarForm() {
+       // click(By.xpath("//*[text()='Submit']"));
     }
 
     public void attachPhoto(String link){
