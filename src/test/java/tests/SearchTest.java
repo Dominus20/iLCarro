@@ -29,7 +29,7 @@ public class SearchTest extends TestBase {
         //"06/30/2022", "10/25/2022"
         //"06/30/2022", "05/22/2023"
         // "01/10/2023", "05/22/2023"
-        app.search().fillSearchFormInFuture("Haifa", "01/10/2023","05/22/2023");
+        app.search().fillSearchFormInFuture("Haifa", "06/30/2022","05/22/2023");
         app.user().submit();
         app.search().pause(700);
 

@@ -3,6 +3,7 @@ package tests;
 import models.Auth;
 import models.Car;
 import models.User;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -45,7 +46,10 @@ public class AddNewCarTest extends TestBase {
         app.car().openCarForm();
         app.car().fillCarForm(car);
         app.car().attachPhoto("D:\\QA_TelRan\\iLCarro\\auto2.jpeg");//attach
-     //   app.car().submitCarForm();
+        app.car().submitCar();
+        Assert.assertEquals(app.car().checkMessageAddCar(), "Car added");
+        app.car().selectSearchCar();
+
 
 
     }

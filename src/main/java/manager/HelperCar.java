@@ -3,7 +3,9 @@ package manager;
 import models.Car;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 
 public class HelperCar extends HelperBase{
@@ -31,11 +33,11 @@ public class HelperCar extends HelperBase{
 
         type(By.id("doors"), car.getDoors());
         type(By.id("seats"), car.getSeats());
-      type(By.id("class"), car.getCarClass());
+        type(By.id("class"), car.getCarClass());
 
-     type(By.id("fuelConsumption"), car.getFuelConsumption());
-/*type(By.cssSelector("input[class='ng-pristine ng-invalid ng-touched']"), car.getCarRegNumber());*/
-     type(By.id("serialNumber"), car.getCarRegNumber());
+       type(By.id("fuelConsumption"), car.getFuelConsumption());
+//type(By.cssSelector("input[class='ng-pristine ng-invalid ng-touched']"), car.getCarRegNumber());
+       type(By.id("serialNumber"), car.getCarRegNumber());
        type(By.id("price"), car.getPrice());
        type(By.id("distance"), car.getDistanceIncluded());
   //   type(By.cssSelector("input[class='feature-input']"), car.getFeatures());
@@ -45,12 +47,6 @@ public class HelperCar extends HelperBase{
 
 
 }
-
-
-
-        //fuel + gear+ wd---> select
-
-       // type(By.id(), car.getMake());
 
     public void select(By locator, String option) {
 //        new Select(wd.findElement(By.id("fuel"))).selectByIndex(4);
@@ -67,12 +63,23 @@ public class HelperCar extends HelperBase{
         pause(500);
     }
 
-    public void submitCarForm() {
-       // click(By.xpath("//*[text()='Submit']"));
+    public void submitCar() {
+        new WebDriverWait(wd,15).until(ExpectedConditions.elementToBeClickable(wd.findElement(By.xpath("//button[text()='Submit']"))));
+        click(By.xpath("//button[text()='Submit']"));
     }
 
     public void attachPhoto(String link){
         wd.findElement(By.id("photos")).sendKeys(link);
 
+    }
+    public String checkMessageAddCar() {
+        // pause(1000);
+        new WebDriverWait(wd, 10)
+                .until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector(".dialog-container"))));
+        return wd.findElement(By.cssSelector(".dialog-container h1")).getText();
+    }
+
+    public void selectSearchCar() {
+        click(By.xpath("//*[text()='Search cars']"));
     }
 }
