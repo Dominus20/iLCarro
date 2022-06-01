@@ -9,9 +9,9 @@ import org.slf4j.LoggerFactory;
 import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager {
-  // EventFiringWebDriver wd;
     Logger logger = LoggerFactory.getLogger(ApplicationManager.class);
-  WebDriver wd;
+   EventFiringWebDriver wd;
+    // WebDriver wd;
     HelperUser user;
     HelperCar car;
     HelperSearch search;
@@ -27,6 +27,7 @@ public class ApplicationManager {
         user = new HelperUser(wd);
         car = new HelperCar(wd);
         search = new HelperSearch(wd);
+        wd.register(new MyListener());
 
 
     }

@@ -88,6 +88,7 @@ public class HelperUser extends HelperBase {
         type(By.id("password"),user.getPassword());
     }
     public void fillLoginForm(Auth auth) {
+
         type(By.id("email"), auth.getEmail());
         type(By.id("password"), auth.getPassword());
     }

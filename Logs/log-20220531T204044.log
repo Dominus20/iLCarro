@@ -1,3 +1,0 @@
-20:40:46.501 INFO  manager.ApplicationManager - Tests start in Chrome driver
-20:40:48.433 INFO  manager.ApplicationManager - The link of project -->https://ilcarro-1578153671498.web.app/search
-20:40:48.513 INFO  tests.TestBase - SL: Name of method--->registrationSuccess

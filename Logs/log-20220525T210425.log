@@ -1,4 +1,0 @@
-21:04:27.476 INFO  manager.ApplicationManager - Tests start in Chrome driver
-21:04:28.730 INFO  manager.ApplicationManager - The link of project -->https://ilcarro-1578153671498.web.app/search
-21:04:28.753 INFO  tests.TestBase - SL: Name of method--->addNewCarSuccess
-21:04:35.456 INFO  tests.TestBase - Tests start with car ---> Car(address=Tel Aviv, Israel, make=BMW, model=M5, year=2018, engine=2.5, fuel=Electric, gear=MT, wD=AWD, doors=4, seats=5, carClass=C, fuelConsumption=6.5, carRegNumber=000-00275, price=80, distanceIncluded=700, features=type of features, about=very nice car)
