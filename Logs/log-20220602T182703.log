@@ -1,0 +1,75 @@
+18:27:06.853 INFO  manager.ApplicationManager - Tests start in Chrome driver
+18:27:08.785 INFO  manager.ApplicationManager - The link of project -->https://ilcarro-1578153671498.web.app/search
+18:27:08.877 INFO  tests.TestBase - SL: Name of method--->searchPeriodAnyDataInFuture
+18:27:08.884 INFO  manager.MyListener - Start find element by locator --->By.id: city
+18:27:08.934 INFO  manager.MyListener - After find by --->By.id: city
+18:27:09.299 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: .pac-item
+18:27:09.659 INFO  manager.MyListener - After find by --->By.cssSelector: .pac-item
+18:27:10.356 INFO  manager.MyListener - Start find element by locator --->By.id: dates
+18:27:10.408 INFO  manager.MyListener - After find by --->By.id: dates
+18:27:10.677 INFO  manager.MyListener - Start find element by locator --->By.xpath: //div[text()=' 30 ']
+18:27:10.715 INFO  manager.MyListener - After find by --->By.xpath: //div[text()=' 30 ']
+18:27:10.897 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: button[aria-label='Next month']
+18:27:10.944 INFO  manager.MyListener - After find by --->By.cssSelector: button[aria-label='Next month']
+18:27:11.089 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: button[aria-label='Next month']
+18:27:11.116 INFO  manager.MyListener - After find by --->By.cssSelector: button[aria-label='Next month']
+18:27:11.245 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: button[aria-label='Next month']
+18:27:11.278 INFO  manager.MyListener - After find by --->By.cssSelector: button[aria-label='Next month']
+18:27:11.414 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: button[aria-label='Next month']
+18:27:11.461 INFO  manager.MyListener - After find by --->By.cssSelector: button[aria-label='Next month']
+18:27:11.594 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: button[aria-label='Next month']
+18:27:11.615 INFO  manager.MyListener - After find by --->By.cssSelector: button[aria-label='Next month']
+18:27:11.674 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: button[aria-label='Next month']
+18:27:11.695 INFO  manager.MyListener - After find by --->By.cssSelector: button[aria-label='Next month']
+18:27:11.754 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: button[aria-label='Next month']
+18:27:11.768 INFO  manager.MyListener - After find by --->By.cssSelector: button[aria-label='Next month']
+18:27:11.827 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: button[aria-label='Next month']
+18:27:11.846 INFO  manager.MyListener - After find by --->By.cssSelector: button[aria-label='Next month']
+18:27:11.912 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: button[aria-label='Next month']
+18:27:11.928 INFO  manager.MyListener - After find by --->By.cssSelector: button[aria-label='Next month']
+18:27:11.987 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: button[aria-label='Next month']
+18:27:12.006 INFO  manager.MyListener - After find by --->By.cssSelector: button[aria-label='Next month']
+18:27:12.122 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: button[aria-label='Next month']
+18:27:12.152 INFO  manager.MyListener - After find by --->By.cssSelector: button[aria-label='Next month']
+18:27:12.261 INFO  manager.MyListener - Start find element by locator --->By.xpath: //div[text()=' 22 ']
+18:27:12.283 INFO  manager.MyListener - After find by --->By.xpath: //div[text()=' 22 ']
+18:27:12.369 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: button[type='submit']
+18:27:12.393 INFO  manager.MyListener - After find by --->By.cssSelector: button[type='submit']
+18:27:13.248 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: .search-results
+18:27:13.280 INFO  manager.MyListener - After find by --->By.cssSelector: .search-results
+18:27:13.286 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: .header a[href='/']
+18:27:13.307 INFO  manager.MyListener - After find by --->By.cssSelector: .header a[href='/']
+18:27:13.690 INFO  tests.TestBase - SL: Name of method--->searchPeriodCurrentMonth
+18:27:13.690 INFO  manager.MyListener - Start find element by locator --->By.id: city
+18:27:13.706 INFO  manager.MyListener - After find by --->By.id: city
+18:27:13.961 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: .pac-item
+18:27:14.172 INFO  manager.MyListener - After find by --->By.cssSelector: .pac-item
+18:27:14.781 INFO  manager.MyListener - Start find element by locator --->By.id: dates
+18:27:14.813 INFO  manager.MyListener - After find by --->By.id: dates
+18:27:14.982 INFO  manager.MyListener - Start find element by locator --->By.xpath: //div[text()=' 29 ']
+18:27:15.020 INFO  manager.MyListener - After find by --->By.xpath: //div[text()=' 29 ']
+18:27:15.146 INFO  manager.MyListener - Start find element by locator --->By.xpath: //div[text()=' 30 ']
+18:27:15.178 INFO  manager.MyListener - After find by --->By.xpath: //div[text()=' 30 ']
+18:27:15.810 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: button[type='submit']
+18:27:15.832 INFO  manager.MyListener - After find by --->By.cssSelector: button[type='submit']
+18:27:15.921 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: .search-results
+18:27:15.971 INFO  manager.MyListener - After find by --->By.cssSelector: .search-results
+18:27:15.973 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: .header a[href='/']
+18:27:15.988 INFO  manager.MyListener - After find by --->By.cssSelector: .header a[href='/']
+18:27:16.257 INFO  tests.TestBase - SL: Name of method--->searchPeriodCurrentMonth2
+18:27:16.258 INFO  manager.MyListener - Start find element by locator --->By.id: city
+18:27:16.279 INFO  manager.MyListener - After find by --->By.id: city
+18:27:16.482 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: .pac-item
+18:27:16.692 INFO  manager.MyListener - After find by --->By.cssSelector: .pac-item
+18:27:17.302 INFO  manager.MyListener - Start find element by locator --->By.id: dates
+18:27:17.330 INFO  manager.MyListener - After find by --->By.id: dates
+18:27:17.490 INFO  manager.MyListener - Start find element by locator --->By.xpath: //div[text()=' 30 ']
+18:27:17.520 INFO  manager.MyListener - After find by --->By.xpath: //div[text()=' 30 ']
+18:27:17.642 INFO  manager.MyListener - Start find element by locator --->By.xpath: //div[text()=' 25 ']
+18:27:17.683 INFO  manager.MyListener - After find by --->By.xpath: //div[text()=' 25 ']
+18:27:18.820 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: button[type='submit']
+18:27:18.849 INFO  manager.MyListener - After find by --->By.cssSelector: button[type='submit']
+18:27:19.013 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: .search-results
+18:27:19.109 INFO  manager.MyListener - After find by --->By.cssSelector: .search-results
+18:27:19.111 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: .header a[href='/']
+18:27:19.138 INFO  manager.MyListener - After find by --->By.cssSelector: .header a[href='/']

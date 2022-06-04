@@ -1,0 +1,27 @@
+18:49:21.688 INFO  manager.ApplicationManager - Tests start in Chrome driver
+18:49:22.952 INFO  manager.ApplicationManager - The link of project -->https://ilcarro-1578153671498.web.app/search
+18:49:22.987 INFO  tests.TestBase - SL: Name of method--->loginSuccessAuth
+18:49:22.988 INFO  manager.MyListener - Start find element by locator --->By.xpath: //a[text()=' Logout ']
+18:49:28.045 INFO  manager.MyListener - After find by --->By.xpath: //a[text()=' Logout ']
+18:49:28.046 INFO  tests.TestBase - Name of method: 
+18:49:28.046 INFO  tests.TestBase - Test start with data: noa@gmail.com     Nnoa123345$
+18:49:28.047 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: [href^='/login']
+18:49:28.076 INFO  manager.MyListener - After find by --->By.cssSelector: [href^='/login']
+18:49:28.159 INFO  manager.MyListener - Start find element by locator --->By.id: email
+18:49:28.187 INFO  manager.MyListener - After find by --->By.id: email
+18:49:28.371 INFO  manager.MyListener - Start find element by locator --->By.id: password
+18:49:28.388 INFO  manager.MyListener - After find by --->By.id: password
+18:49:28.553 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: button[type='submit']
+18:49:28.575 INFO  manager.MyListener - After find by --->By.cssSelector: button[type='submit']
+18:49:28.635 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: .dialog-container
+18:49:29.283 INFO  manager.MyListener - After find by --->By.cssSelector: .dialog-container
+18:49:29.392 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: .dialog-container h2
+18:49:29.422 INFO  manager.MyListener - After find by --->By.cssSelector: .dialog-container h2
+18:49:29.451 INFO  tests.TestBase - SL: Name of method--->loginSuccessAuth
+18:49:29.452 INFO  manager.MyListener - Start find element by locator --->By.xpath: //a[text()=' Logout ']
+18:49:34.493 INFO  manager.MyListener - After find by --->By.xpath: //a[text()=' Logout ']
+18:49:34.494 INFO  tests.TestBase - Name of method: 
+18:49:34.494 INFO  tests.TestBase - Test start with data: noa@gmail.com     Nnoa123345$
+18:49:34.495 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: [href^='/login']
+18:49:34.527 INFO  tests.TestBase - SL: Name of method--->loginSuccessAuth
+18:49:34.528 INFO  manager.MyListener - Start find element by locator --->By.xpath: //a[text()=' Logout ']

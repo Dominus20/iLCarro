@@ -1,5 +1,6 @@
 package tests;
 
+import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
@@ -9,7 +10,7 @@ public class SearchTest extends TestBase {
     @Test
     public void searchPeriodCurrentMonth() {
         // 5/29/2022-5/31/2022
-        app.search().fillSearchFormCurrentMonth("Haifa Israel", "5/29/2022", "5/31/2022");
+        app.search().fillSearchFormCurrentMonth("Haifa Israel", "6/29/2022", "6/30/2022");
         app.user().submit();
 
         Assert.assertTrue(app.search().isListOfCarAppeared());
@@ -18,7 +19,7 @@ public class SearchTest extends TestBase {
 
     @Test
     public void searchPeriodCurrentMonth2() {
-        app.search().fillSearchFormCurrentMonth("Tel Aviv Israel", "5/30/2022", "5/31/2022");
+        app.search().fillSearchFormCurrentMonth("Tel Aviv Israel", "7/30/2022", "8/25/2022");
         app.search().pause(500);
         app.user().submit();
         Assert.assertTrue(app.search().isListOfCarAppeared());
@@ -41,7 +42,8 @@ public class SearchTest extends TestBase {
 
     @AfterMethod
     public void postCondition(){
-        app.search().returnToHome();
+       app.search().returnToHome();
+       // app.search().clear(By.id("dates"));
     }
 
 

@@ -3,9 +3,7 @@ package manager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedCondition;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+
 
 public class HelperBase {
     WebDriver wd;
@@ -41,4 +39,11 @@ public class HelperBase {
 
 
     }
+//    public void clear(By locator){
+//        WebElement el = wd.findElement(By.id("dates"));
+//        el.sendKeys(Keys.COMMAND+"a");
+//        el.sendKeys(Keys.DELETE);
+//        pause(500);
+//
+//    }
 }
