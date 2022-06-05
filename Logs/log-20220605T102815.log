@@ -1,0 +1,59 @@
+10:28:18.647 INFO  manager.ApplicationManager - Tests start in Chrome driver
+10:28:20.293 INFO  manager.ApplicationManager - The link of project -->https://ilcarro-1578153671498.web.app/search
+10:28:20.408 INFO  tests.TestBase - SL: Name of method--->registrationSuccessAuth
+10:28:20.412 INFO  manager.MyListener - Start find element by locator --->By.xpath: //a[text()=' Logout ']
+10:28:25.451 INFO  manager.MyListener - After find by --->By.xpath: //a[text()=' Logout ']
+10:28:25.453 INFO  manager.MyListener - Start find element by locator --->By.xpath: //a[text()=' Sign up ']
+10:28:25.469 INFO  manager.MyListener - After find by --->By.xpath: //a[text()=' Sign up ']
+10:28:25.571 INFO  manager.MyListener - Start find element by locator --->By.id: name
+10:28:25.610 INFO  manager.MyListener - After find by --->By.id: name
+10:28:25.773 INFO  manager.MyListener - Start find element by locator --->By.id: lastName
+10:28:25.798 INFO  manager.MyListener - After find by --->By.id: lastName
+10:28:25.980 INFO  manager.MyListener - Start find element by locator --->By.id: email
+10:28:26.013 INFO  manager.MyListener - After find by --->By.id: email
+10:28:26.225 INFO  manager.MyListener - Start find element by locator --->By.id: password
+10:28:26.242 INFO  manager.MyListener - After find by --->By.id: password
+10:28:26.406 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: label[for='terms-of-use']
+10:28:26.422 INFO  manager.MyListener - After find by --->By.cssSelector: label[for='terms-of-use']
+10:28:26.810 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: button[type='submit']
+10:28:26.833 INFO  manager.MyListener - After find by --->By.cssSelector: button[type='submit']
+10:28:26.904 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: .dialog-container
+10:28:31.992 INFO  manager.MyListener - We have a problem --->https://ilcarro-1578153671498.web.app/registration?url=%2Fsearch
+10:28:31.993 INFO  manager.MyListener - We have a problem --->no such element: Unable to locate element: {"method":"css selector","selector":".dialog-container"}
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KDFX-PC', ip: '172.16.0.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\KDFXTE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65062}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 48894fe9a775820ec0a3e927cd256f88
+*** Element info: {Using=css selector, value=.dialog-container}
+10:28:31.995 INFO  manager.MyListener - We have a problem --->org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".dialog-container"}
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KDFX-PC', ip: '172.16.0.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\KDFXTE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65062}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 48894fe9a775820ec0a3e927cd256f88
+*** Element info: {Using=css selector, value=.dialog-container}
+10:28:33.118 INFO  tests.TestBase - SL: Name of method--->registrationSuccessAuth
+10:28:33.120 INFO  manager.MyListener - Start find element by locator --->By.xpath: //a[text()=' Logout ']
+10:28:37.663 INFO  manager.MyListener - After find by --->By.xpath: //a[text()=' Logout ']
+10:28:37.664 INFO  manager.MyListener - Start find element by locator --->By.xpath: //a[text()=' Logout ']
+10:28:37.704 INFO  manager.MyListener - After find by --->By.xpath: //a[text()=' Logout ']
+10:28:38.875 INFO  manager.MyListener - We have a problem --->https://ilcarro-1578153671498.web.app/registration?url=%2Fsearch
+10:28:38.876 INFO  manager.MyListener - We have a problem --->element click intercepted: Element <a _ngcontent-uuw-c25="" class="navigation-link ng-star-inserted" href="/logout?url=%2Fsearch">...</a> is not clickable at point (1472, 34). Other element would receive the click: <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=102.0.5005.63)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KDFX-PC', ip: '172.16.0.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\KDFXTE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65062}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 48894fe9a775820ec0a3e927cd256f88
+10:28:38.878 INFO  manager.MyListener - We have a problem --->org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-uuw-c25="" class="navigation-link ng-star-inserted" href="/logout?url=%2Fsearch">...</a> is not clickable at point (1472, 34). Other element would receive the click: <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=102.0.5005.63)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KDFX-PC', ip: '172.16.0.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\KDFXTE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65062}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 48894fe9a775820ec0a3e927cd256f88

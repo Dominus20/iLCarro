@@ -1,0 +1,117 @@
+10:29:33.494 INFO  manager.ApplicationManager - Tests start in Chrome driver
+10:29:35.276 INFO  manager.ApplicationManager - The link of project -->https://ilcarro-1578153671498.web.app/search
+10:29:35.360 INFO  tests.TestBase - SL: Name of method--->registrationSuccessAuth
+10:29:35.363 INFO  manager.MyListener - Start find element by locator --->By.xpath: //a[text()=' Logout ']
+10:29:40.415 INFO  manager.MyListener - After find by --->By.xpath: //a[text()=' Logout ']
+10:29:40.417 INFO  manager.MyListener - Start find element by locator --->By.xpath: //a[text()=' Sign up ']
+10:29:40.437 INFO  manager.MyListener - After find by --->By.xpath: //a[text()=' Sign up ']
+10:29:40.526 INFO  manager.MyListener - Start find element by locator --->By.id: name
+10:29:40.543 INFO  manager.MyListener - After find by --->By.id: name
+10:29:40.709 INFO  manager.MyListener - Start find element by locator --->By.id: lastName
+10:29:40.729 INFO  manager.MyListener - After find by --->By.id: lastName
+10:29:40.920 INFO  manager.MyListener - Start find element by locator --->By.id: email
+10:29:40.945 INFO  manager.MyListener - After find by --->By.id: email
+10:29:41.150 INFO  manager.MyListener - Start find element by locator --->By.id: password
+10:29:41.176 INFO  manager.MyListener - After find by --->By.id: password
+10:29:41.349 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: label[for='terms-of-use']
+10:29:41.375 INFO  manager.MyListener - After find by --->By.cssSelector: label[for='terms-of-use']
+10:29:41.780 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: button[type='submit']
+10:29:41.817 INFO  manager.MyListener - After find by --->By.cssSelector: button[type='submit']
+10:29:41.912 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: .dialog-container
+10:29:47.013 INFO  manager.MyListener - We have a problem --->https://ilcarro-1578153671498.web.app/registration?url=%2Fsearch
+10:29:47.014 INFO  manager.MyListener - We have a problem --->no such element: Unable to locate element: {"method":"css selector","selector":".dialog-container"}
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KDFX-PC', ip: '172.16.0.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\KDFXTE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65103}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d7163adf61524b7d17b41991296b1f51
+*** Element info: {Using=css selector, value=.dialog-container}
+10:29:47.016 INFO  manager.MyListener - We have a problem --->org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".dialog-container"}
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KDFX-PC', ip: '172.16.0.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\KDFXTE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65103}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d7163adf61524b7d17b41991296b1f51
+*** Element info: {Using=css selector, value=.dialog-container}
+10:29:48.072 INFO  tests.TestBase - SL: Name of method--->registrationSuccessAuth
+10:29:48.074 INFO  manager.MyListener - Start find element by locator --->By.xpath: //a[text()=' Logout ']
+10:29:53.130 INFO  manager.MyListener - After find by --->By.xpath: //a[text()=' Logout ']
+10:29:53.132 INFO  manager.MyListener - Start find element by locator --->By.xpath: //a[text()=' Sign up ']
+10:29:53.177 INFO  manager.MyListener - After find by --->By.xpath: //a[text()=' Sign up ']
+10:29:53.313 INFO  manager.MyListener - Start find element by locator --->By.id: name
+10:29:53.363 INFO  manager.MyListener - After find by --->By.id: name
+10:29:53.689 INFO  manager.MyListener - Start find element by locator --->By.id: lastName
+10:29:53.737 INFO  manager.MyListener - After find by --->By.id: lastName
+10:29:54.071 INFO  manager.MyListener - Start find element by locator --->By.id: email
+10:29:54.109 INFO  manager.MyListener - After find by --->By.id: email
+10:29:54.478 INFO  manager.MyListener - Start find element by locator --->By.id: password
+10:29:54.524 INFO  manager.MyListener - After find by --->By.id: password
+10:29:54.830 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: label[for='terms-of-use']
+10:29:54.860 INFO  manager.MyListener - After find by --->By.cssSelector: label[for='terms-of-use']
+10:29:55.277 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: button[type='submit']
+10:29:55.318 INFO  manager.MyListener - After find by --->By.cssSelector: button[type='submit']
+10:29:55.395 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: .dialog-container
+10:30:00.451 INFO  manager.MyListener - We have a problem --->https://ilcarro-1578153671498.web.app/registration?url=%2Fsearch
+10:30:00.452 INFO  manager.MyListener - We have a problem --->no such element: Unable to locate element: {"method":"css selector","selector":".dialog-container"}
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KDFX-PC', ip: '172.16.0.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\KDFXTE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65103}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d7163adf61524b7d17b41991296b1f51
+*** Element info: {Using=css selector, value=.dialog-container}
+10:30:00.454 INFO  manager.MyListener - We have a problem --->org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".dialog-container"}
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KDFX-PC', ip: '172.16.0.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\KDFXTE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65103}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d7163adf61524b7d17b41991296b1f51
+*** Element info: {Using=css selector, value=.dialog-container}
+10:30:01.283 INFO  tests.TestBase - SL: Name of method--->registrationSuccessAuth
+10:30:01.284 INFO  manager.MyListener - Start find element by locator --->By.xpath: //a[text()=' Logout ']
+10:30:06.365 INFO  manager.MyListener - After find by --->By.xpath: //a[text()=' Logout ']
+10:30:06.367 INFO  manager.MyListener - Start find element by locator --->By.xpath: //a[text()=' Sign up ']
+10:30:06.397 INFO  manager.MyListener - After find by --->By.xpath: //a[text()=' Sign up ']
+10:30:06.474 INFO  manager.MyListener - Start find element by locator --->By.id: name
+10:30:06.507 INFO  manager.MyListener - After find by --->By.id: name
+10:30:06.780 INFO  manager.MyListener - Start find element by locator --->By.id: lastName
+10:30:06.818 INFO  manager.MyListener - After find by --->By.id: lastName
+10:30:07.084 INFO  manager.MyListener - Start find element by locator --->By.id: email
+10:30:07.119 INFO  manager.MyListener - After find by --->By.id: email
+10:30:07.408 INFO  manager.MyListener - Start find element by locator --->By.id: password
+10:30:07.446 INFO  manager.MyListener - After find by --->By.id: password
+10:30:07.721 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: label[for='terms-of-use']
+10:30:07.751 INFO  manager.MyListener - After find by --->By.cssSelector: label[for='terms-of-use']
+10:30:08.154 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: button[type='submit']
+10:30:08.183 INFO  manager.MyListener - After find by --->By.cssSelector: button[type='submit']
+10:30:08.248 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: .dialog-container
+10:30:13.284 INFO  manager.MyListener - We have a problem --->https://ilcarro-1578153671498.web.app/registration?url=%2Fsearch
+10:30:13.285 INFO  manager.MyListener - We have a problem --->no such element: Unable to locate element: {"method":"css selector","selector":".dialog-container"}
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KDFX-PC', ip: '172.16.0.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\KDFXTE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65103}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d7163adf61524b7d17b41991296b1f51
+*** Element info: {Using=css selector, value=.dialog-container}
+10:30:13.286 INFO  manager.MyListener - We have a problem --->org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".dialog-container"}
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KDFX-PC', ip: '172.16.0.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\KDFXTE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65103}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d7163adf61524b7d17b41991296b1f51
+*** Element info: {Using=css selector, value=.dialog-container}
+10:30:14.186 INFO  tests.TestBase - SL: Name of method--->registrationSuccessAuth
+10:30:14.188 INFO  manager.MyListener - Start find element by locator --->By.xpath: //a[text()=' Logout ']
+10:30:17.512 INFO  manager.MyListener - After find by --->By.xpath: //a[text()=' Logout ']
+10:30:17.514 INFO  manager.MyListener - Start find element by locator --->By.xpath: //a[text()=' Sign up ']

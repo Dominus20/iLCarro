@@ -1,6 +1,7 @@
 package tests;
 
 
+import manager.MyDataProvider;
 import models.Auth;
 import models.User;
 import org.testng.Assert;
@@ -19,6 +20,9 @@ public class RegistrationTest  extends TestBase{
     @Test
     public void registrationSuccess() {
         int i = (int) (System.currentTimeMillis() / 1000) % 3600;
+
+        String name = "Zoa";
+        String lastName = "Dow ";
 
         System.out.println(System.currentTimeMillis());
         System.out.println(System.currentTimeMillis() / 1000);
@@ -53,15 +57,10 @@ public class RegistrationTest  extends TestBase{
             // AssertTrue(isRegistrationSuccess)
     }
 
-    @Test
-    public void registrationSuccessAuth() {
+    @Test(dataProvider = "regValidData", dataProviderClass = MyDataProvider.class)
+    public void registrationSuccessAuth(Auth auth) {
         int i = (int) (System.currentTimeMillis() / 1000) % 3600;
-        Auth auth = Auth.builder()
-                .name("Taya")
-                .lastName("Hatum")
-                .email("taya"+i+"@gmail.com")
-                .password("Ww12345$")
-                .build();
+       auth.setEmail("wow"+i+"@gmail.com");
 
         app.user().openRegistrationForm();
         app.user().fillRegistrationForm(auth);
