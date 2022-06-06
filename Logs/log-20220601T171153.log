@@ -1,4 +1,0 @@
-17:11:53.477 INFO  manager.MyListenerNG - onStart
-17:11:53.512 INFO  manager.MyListenerNG - onTestStart
-17:12:01.586 INFO  manager.MyListenerNG - onTestSuccess
-17:12:01.589 INFO  manager.MyListenerNG - onFinish

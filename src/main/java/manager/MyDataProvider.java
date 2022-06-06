@@ -55,7 +55,8 @@ public class MyDataProvider {
                 .price("80")
                 .distanceIncluded("700")
                 .features("type of features")
-                .about("very nice car").build()});
+                .about("very nice car")
+                .build()});
         list.add(new Object[]{Car.builder().address("Tel Aviv, Israel")//adress
                 .make("BMW")
                 .model("M5")
@@ -72,7 +73,8 @@ public class MyDataProvider {
                 .price("80")
                 .distanceIncluded("700")
                 .features("type of features")
-                .about("very nice car").build()});
+                .about("very nice car")
+                .build()});
         list.add(new Object[]{Car.builder().address("Tel Aviv, Israel")//adress
                 .make("BMW")
                 .model("M5")
@@ -141,5 +143,40 @@ public class MyDataProvider {
 
         return  list.iterator();
 
+    }
+
+    @DataProvider
+    public Iterator<Object[]> carValidDataCSV() throws IOException {
+        List<Object[]> list = new ArrayList<>();
+        BufferedReader reader = new BufferedReader(new FileReader(new File("src/test/resources/cardata.csv")));
+        String line = reader.readLine();
+
+        while (line!= null){
+            String[]split =  line.split(";");
+            list.add(new Object[]{Car.builder()
+                    .address(split[0])
+                    .make(split[1])
+                    .model(split[2])
+                    .year(split[3])
+                    .engine(split[4])
+                    .fuel(split[5])//select
+                    .gear(split[6])//select
+                    .wD(split[7])//select
+                    .doors(split[8])
+                    .seats(split[9])
+                    .carClass(split[10])
+                    .fuelConsumption(split[11])
+                    .carRegNumber(split[12])
+                    .price(split[13])
+                    .distanceIncluded(split[14])
+                    .features(split[15])
+                    .about(split[16])
+                    .build()});
+            line = reader.readLine();
+
+        }
+
+
+            return  list.iterator();
     }
 }

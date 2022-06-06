@@ -1,0 +1,55 @@
+19:24:57.541 INFO  manager.ApplicationManager - Tests start in Chrome driver
+19:24:59.232 INFO  manager.ApplicationManager - The link of project -->https://ilcarro-1578153671498.web.app/search
+19:24:59.270 INFO  tests.TestBase - SL: Name of method--->loginSuccessAuth
+19:24:59.272 INFO  manager.MyListener - Start find element by locator --->By.xpath: //a[text()=' Logout ']
+19:25:04.292 INFO  manager.MyListener - After find by --->By.xpath: //a[text()=' Logout ']
+19:25:04.293 INFO  tests.TestBase - Name of method is loginSuccessAuth: 
+19:25:04.293 INFO  tests.TestBase - Test start with data: noa@gmail.com     Nnoa12345$
+19:25:04.294 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: [href^='/login']
+19:25:04.310 INFO  manager.MyListener - After find by --->By.cssSelector: [href^='/login']
+19:25:04.395 INFO  manager.MyListener - Start find element by locator --->By.id: email
+19:25:04.419 INFO  manager.MyListener - After find by --->By.id: email
+19:25:04.572 INFO  manager.MyListener - Start find element by locator --->By.id: password
+19:25:04.588 INFO  manager.MyListener - After find by --->By.id: password
+19:25:04.717 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: button[type='submit']
+19:25:04.745 INFO  manager.MyListener - After find by --->By.cssSelector: button[type='submit']
+19:25:04.815 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: .dialog-container
+19:25:09.855 INFO  manager.MyListener - We have a problem --->https://ilcarro-1578153671498.web.app/login?url=%2Fsearch
+19:25:09.855 INFO  manager.MyListener - We have a problem --->no such element: Unable to locate element: {"method":"css selector","selector":".dialog-container"}
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KDFX-PC', ip: '172.16.0.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\KDFXTE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60426}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 32ed837f992d56a0ffb0cc7e3597607d
+*** Element info: {Using=css selector, value=.dialog-container}
+19:25:09.856 INFO  manager.MyListener - We have a problem --->org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".dialog-container"}
+  (Session info: chrome=102.0.5005.63)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KDFX-PC', ip: '172.16.0.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\KDFXTE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60426}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 32ed837f992d56a0ffb0cc7e3597607d
+*** Element info: {Using=css selector, value=.dialog-container}
+19:25:10.418 INFO  tests.TestBase - SL: Name of method--->loginSuccessAuth
+19:25:10.419 INFO  manager.MyListener - Start find element by locator --->By.xpath: //a[text()=' Logout ']
+19:25:14.794 INFO  manager.MyListener - After find by --->By.xpath: //a[text()=' Logout ']
+19:25:14.794 INFO  manager.MyListener - Start find element by locator --->By.xpath: //a[text()=' Logout ']
+19:25:14.814 INFO  manager.MyListener - After find by --->By.xpath: //a[text()=' Logout ']
+19:25:15.915 INFO  manager.MyListener - We have a problem --->https://ilcarro-1578153671498.web.app/login?url=%2Fsearch
+19:25:15.915 INFO  manager.MyListener - We have a problem --->element click intercepted: Element <a _ngcontent-rqf-c25="" class="navigation-link ng-star-inserted" href="/logout?url=%2Fsearch">...</a> is not clickable at point (1472, 34). Other element would receive the click: <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=102.0.5005.63)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KDFX-PC', ip: '172.16.0.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\KDFXTE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60426}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 32ed837f992d56a0ffb0cc7e3597607d
+19:25:15.916 INFO  manager.MyListener - We have a problem --->org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-rqf-c25="" class="navigation-link ng-star-inserted" href="/logout?url=%2Fsearch">...</a> is not clickable at point (1472, 34). Other element would receive the click: <div class="cdk-overlay-backdrop cdk-overlay-dark-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=102.0.5005.63)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KDFX-PC', ip: '172.16.0.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\KDFXTE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60426}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 32ed837f992d56a0ffb0cc7e3597607d

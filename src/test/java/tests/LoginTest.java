@@ -34,6 +34,7 @@ public class LoginTest extends TestBase{
         logger.info("Assert check message: \"Logged in success\"");
         app.user().clickOkButton();
     }
+
     @Test(dataProvider = "loginValidDataAuth", dataProviderClass = MyDataProvider.class)
     public void loginSuccessUser(Auth auth){
 

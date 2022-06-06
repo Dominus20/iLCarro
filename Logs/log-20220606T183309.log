@@ -1,0 +1,91 @@
+18:33:12.486 INFO  manager.ApplicationManager - Tests start in Chrome driver
+18:33:14.605 INFO  manager.ApplicationManager - The link of project -->https://ilcarro-1578153671498.web.app/search
+18:33:14.732 INFO  tests.TestBase - SL: Name of method--->addNewCarSuccess
+18:33:14.737 INFO  manager.MyListener - Start find element by locator --->By.xpath: //a[text()=' Logout ']
+18:33:19.817 INFO  manager.MyListener - After find by --->By.xpath: //a[text()=' Logout ']
+18:33:19.820 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: [href^='/login']
+18:33:19.855 INFO  manager.MyListener - After find by --->By.cssSelector: [href^='/login']
+18:33:20.032 INFO  manager.MyListener - Start find element by locator --->By.id: email
+18:33:20.077 INFO  manager.MyListener - After find by --->By.id: email
+18:33:20.441 INFO  manager.MyListener - Start find element by locator --->By.id: password
+18:33:20.480 INFO  manager.MyListener - After find by --->By.id: password
+18:33:20.674 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: button[type='submit']
+18:33:20.712 INFO  manager.MyListener - After find by --->By.cssSelector: button[type='submit']
+18:33:20.788 INFO  manager.MyListener - Start find element by locator --->By.xpath: //button[text()='Ok']
+18:33:21.653 INFO  manager.MyListener - After find by --->By.xpath: //button[text()='Ok']
+18:33:22.253 INFO  tests.TestBase - Tests start with car ---> Car(address=Tel Aviv,Israel, make=BMW, model=M5, year=2018, engine=2.5, fuel=Electric, gear=MT, wD=AWD, doors=4, seats=5, carClass=C, fuelConsumption=6.5, carRegNumber=000-00-672, price=80, distanceIncluded=700, features=type of features, about=very nice car)
+18:33:22.254 INFO  manager.MyListener - Start find element by locator --->By.id: 1
+18:33:22.279 INFO  manager.MyListener - After find by --->By.id: 1
+18:33:22.374 INFO  manager.MyListener - Start find element by locator --->By.id: pickUpPlace
+18:33:22.404 INFO  manager.MyListener - After find by --->By.id: pickUpPlace
+18:33:23.119 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: .pac-item
+18:33:23.163 INFO  manager.MyListener - After find by --->By.cssSelector: .pac-item
+18:33:23.789 INFO  manager.MyListener - Start find element by locator --->By.id: make
+18:33:23.829 INFO  manager.MyListener - After find by --->By.id: make
+18:33:24.046 INFO  manager.MyListener - Start find element by locator --->By.id: model
+18:33:24.090 INFO  manager.MyListener - After find by --->By.id: model
+18:33:24.367 INFO  manager.MyListener - Start find element by locator --->By.id: year
+18:33:24.400 INFO  manager.MyListener - After find by --->By.id: year
+18:33:24.694 INFO  manager.MyListener - Start find element by locator --->By.id: engine
+18:33:24.723 INFO  manager.MyListener - After find by --->By.id: engine
+18:33:24.929 INFO  manager.MyListener - Start find element by locator --->By.id: fuel
+18:33:24.982 INFO  manager.MyListener - After find by --->By.id: fuel
+18:33:25.064 INFO  manager.MyListener - Start find element by locator --->By.xpath: .//option[@value = "Electric"]
+18:33:25.104 INFO  manager.MyListener - After find by --->By.xpath: .//option[@value = "Electric"]
+18:33:25.296 INFO  manager.MyListener - Start find element by locator --->By.id: gear
+18:33:25.339 INFO  manager.MyListener - After find by --->By.id: gear
+18:33:25.400 INFO  manager.MyListener - Start find element by locator --->By.xpath: .//option[@value = "MT"]
+18:33:25.461 INFO  manager.MyListener - After find by --->By.xpath: .//option[@value = "MT"]
+18:33:25.540 INFO  manager.MyListener - Start find element by locator --->By.id: wheelsDrive
+18:33:25.565 INFO  manager.MyListener - After find by --->By.id: wheelsDrive
+18:33:25.600 INFO  manager.MyListener - Start find element by locator --->By.xpath: .//option[@value = "AWD"]
+18:33:25.625 INFO  manager.MyListener - After find by --->By.xpath: .//option[@value = "AWD"]
+18:33:25.674 INFO  manager.MyListener - Start find element by locator --->By.id: doors
+18:33:25.699 INFO  manager.MyListener - After find by --->By.id: doors
+18:33:25.882 INFO  manager.MyListener - Start find element by locator --->By.id: seats
+18:33:25.902 INFO  manager.MyListener - After find by --->By.id: seats
+18:33:26.104 INFO  manager.MyListener - Start find element by locator --->By.id: class
+18:33:26.135 INFO  manager.MyListener - After find by --->By.id: class
+18:33:26.319 INFO  manager.MyListener - Start find element by locator --->By.id: fuelConsumption
+18:33:26.342 INFO  manager.MyListener - After find by --->By.id: fuelConsumption
+18:33:26.539 INFO  manager.MyListener - Start find element by locator --->By.id: serialNumber
+18:33:26.571 INFO  manager.MyListener - After find by --->By.id: serialNumber
+18:33:26.767 INFO  manager.MyListener - Start find element by locator --->By.id: price
+18:33:26.790 INFO  manager.MyListener - After find by --->By.id: price
+18:33:27.132 INFO  manager.MyListener - Start find element by locator --->By.id: distance
+18:33:27.170 INFO  manager.MyListener - After find by --->By.id: distance
+18:33:27.487 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: input[placeholder='Type feature']
+18:33:27.526 INFO  manager.MyListener - After find by --->By.cssSelector: input[placeholder='Type feature']
+18:33:27.794 INFO  manager.MyListener - Start find element by locator --->By.id: about
+18:33:27.832 INFO  manager.MyListener - After find by --->By.id: about
+18:33:28.073 INFO  manager.MyListener - Start find element by locator --->By.id: photos
+18:33:28.104 INFO  manager.MyListener - After find by --->By.id: photos
+18:33:28.231 INFO  manager.MyListener - Start find element by locator --->By.xpath: //button[text()='Submit']
+18:33:28.261 INFO  manager.MyListener - After find by --->By.xpath: //button[text()='Submit']
+18:33:30.027 INFO  manager.MyListener - Start find element by locator --->By.xpath: //button[text()='Submit']
+18:33:30.053 INFO  manager.MyListener - After find by --->By.xpath: //button[text()='Submit']
+18:33:30.159 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: .dialog-container
+18:33:30.874 INFO  manager.MyListener - After find by --->By.cssSelector: .dialog-container
+18:33:30.913 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: .dialog-container h1
+18:33:30.950 INFO  manager.MyListener - After find by --->By.cssSelector: .dialog-container h1
+18:33:31.007 INFO  tests.TestBase - SL: Name of method--->addNewCarSuccess
+18:33:31.008 INFO  manager.MyListener - Start find element by locator --->By.xpath: //a[text()=' Logout ']
+18:33:31.050 INFO  manager.MyListener - After find by --->By.xpath: //a[text()=' Logout ']
+18:33:31.052 INFO  tests.TestBase - Tests start with car ---> Car(address=Tel Aviv,Israel, make=BMW, model=M5, year=2018, engine=2.5, fuel=Electric, gear=MT, wD=AWD, doors=4, seats=5, carClass=C, fuelConsumption=6.5, carRegNumber=000-00-672, price=80, distanceIncluded=700, features=type of features, about=very nice car)
+18:33:31.052 INFO  manager.MyListener - Start find element by locator --->By.id: 1
+18:33:31.079 INFO  manager.MyListener - After find by --->By.id: 1
+18:33:36.156 INFO  manager.MyListener - We have a problem --->https://ilcarro-1578153671498.web.app/let-car-work
+18:33:36.157 INFO  manager.MyListener - We have a problem --->element not interactable
+  (Session info: chrome=102.0.5005.63)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KDFX-PC', ip: '172.16.0.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\KDFXTE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58988}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 87f97f646aeda58b7614a25a7774252c
+18:33:36.158 INFO  manager.MyListener - We have a problem --->org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=102.0.5005.63)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'KDFX-PC', ip: '172.16.0.178', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\KDFXTE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58988}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 87f97f646aeda58b7614a25a7774252c
