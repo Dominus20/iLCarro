@@ -1,0 +1,132 @@
+18:14:55.396 INFO  manager.ApplicationManager - Tests start in Chrome driver
+18:14:56.645 INFO  manager.ApplicationManager - The link of project -->https://ilcarro-1578153671498.web.app/search
+18:14:56.682 INFO  tests.TestBase - SL: Name of method--->addNewCarSuccess
+18:14:56.683 INFO  manager.MyListener - Start find element by locator --->By.xpath: //a[text()=' Logout ']
+18:15:01.721 INFO  manager.MyListener - After find by --->By.xpath: //a[text()=' Logout ']
+18:15:01.722 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: [href^='/login']
+18:15:01.741 INFO  manager.MyListener - After find by --->By.cssSelector: [href^='/login']
+18:15:01.822 INFO  manager.MyListener - Start find element by locator --->By.id: email
+18:15:01.851 INFO  manager.MyListener - After find by --->By.id: email
+18:15:02.006 INFO  manager.MyListener - Start find element by locator --->By.id: password
+18:15:02.033 INFO  manager.MyListener - After find by --->By.id: password
+18:15:02.148 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: button[type='submit']
+18:15:02.169 INFO  manager.MyListener - After find by --->By.cssSelector: button[type='submit']
+18:15:02.217 INFO  manager.MyListener - Start find element by locator --->By.xpath: //button[text()='Ok']
+18:15:03.116 INFO  manager.MyListener - After find by --->By.xpath: //button[text()='Ok']
+18:15:03.665 INFO  tests.TestBase - Tests start with car ---> Car(address=Tel Aviv,Israel, make=BMW, model=M5, year=2018, engine=2.5, fuel=Electric, gear=MT, wD=AWD, doors=4, seats=5, carClass=C, fuelConsumption=6.5, carRegNumber=345-35-903, price=80, distanceIncluded=700, features=type of features, about=very nice car)
+18:15:03.666 INFO  manager.MyListener - Start find element by locator --->By.id: 1
+18:15:03.690 INFO  manager.MyListener - After find by --->By.id: 1
+18:15:03.771 INFO  manager.MyListener - Start find element by locator --->By.id: pickUpPlace
+18:15:03.798 INFO  manager.MyListener - After find by --->By.id: pickUpPlace
+18:15:04.457 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: .pac-item
+18:15:04.503 INFO  manager.MyListener - After find by --->By.cssSelector: .pac-item
+18:15:05.065 INFO  manager.MyListener - Start find element by locator --->By.id: make
+18:15:05.090 INFO  manager.MyListener - After find by --->By.id: make
+18:15:05.201 INFO  manager.MyListener - Start find element by locator --->By.id: model
+18:15:05.215 INFO  manager.MyListener - After find by --->By.id: model
+18:15:05.325 INFO  manager.MyListener - Start find element by locator --->By.id: year
+18:15:05.340 INFO  manager.MyListener - After find by --->By.id: year
+18:15:05.482 INFO  manager.MyListener - Start find element by locator --->By.id: engine
+18:15:05.509 INFO  manager.MyListener - After find by --->By.id: engine
+18:15:05.635 INFO  manager.MyListener - Start find element by locator --->By.id: fuel
+18:15:05.649 INFO  manager.MyListener - After find by --->By.id: fuel
+18:15:05.677 INFO  manager.MyListener - Start find element by locator --->By.xpath: .//option[@value = "Electric"]
+18:15:05.695 INFO  manager.MyListener - After find by --->By.xpath: .//option[@value = "Electric"]
+18:15:05.737 INFO  manager.MyListener - Start find element by locator --->By.id: gear
+18:15:05.758 INFO  manager.MyListener - After find by --->By.id: gear
+18:15:05.784 INFO  manager.MyListener - Start find element by locator --->By.xpath: .//option[@value = "MT"]
+18:15:05.803 INFO  manager.MyListener - After find by --->By.xpath: .//option[@value = "MT"]
+18:15:05.846 INFO  manager.MyListener - Start find element by locator --->By.id: wheelsDrive
+18:15:05.865 INFO  manager.MyListener - After find by --->By.id: wheelsDrive
+18:15:05.892 INFO  manager.MyListener - Start find element by locator --->By.xpath: .//option[@value = "AWD"]
+18:15:05.912 INFO  manager.MyListener - After find by --->By.xpath: .//option[@value = "AWD"]
+18:15:05.953 INFO  manager.MyListener - Start find element by locator --->By.id: doors
+18:15:05.978 INFO  manager.MyListener - After find by --->By.id: doors
+18:15:06.130 INFO  manager.MyListener - Start find element by locator --->By.id: seats
+18:15:06.149 INFO  manager.MyListener - After find by --->By.id: seats
+18:15:06.297 INFO  manager.MyListener - Start find element by locator --->By.id: class
+18:15:06.315 INFO  manager.MyListener - After find by --->By.id: class
+18:15:06.441 INFO  manager.MyListener - Start find element by locator --->By.id: fuelConsumption
+18:15:06.456 INFO  manager.MyListener - After find by --->By.id: fuelConsumption
+18:15:06.599 INFO  manager.MyListener - Start find element by locator --->By.id: serialNumber
+18:15:06.613 INFO  manager.MyListener - After find by --->By.id: serialNumber
+18:15:06.750 INFO  manager.MyListener - Start find element by locator --->By.id: price
+18:15:06.766 INFO  manager.MyListener - After find by --->By.id: price
+18:15:06.908 INFO  manager.MyListener - Start find element by locator --->By.id: distance
+18:15:06.934 INFO  manager.MyListener - After find by --->By.id: distance
+18:15:07.088 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: input[placeholder='Type feature']
+18:15:07.106 INFO  manager.MyListener - After find by --->By.cssSelector: input[placeholder='Type feature']
+18:15:07.245 INFO  manager.MyListener - Start find element by locator --->By.id: about
+18:15:07.260 INFO  manager.MyListener - After find by --->By.id: about
+18:15:07.378 INFO  manager.MyListener - Start find element by locator --->By.id: photos
+18:15:07.401 INFO  manager.MyListener - After find by --->By.id: photos
+18:15:07.466 INFO  manager.MyListener - Start find element by locator --->By.xpath: //button[text()='Submit']
+18:15:07.492 INFO  manager.MyListener - After find by --->By.xpath: //button[text()='Submit']
+18:15:08.622 INFO  manager.MyListener - Start find element by locator --->By.xpath: //button[text()='Submit']
+18:15:08.639 INFO  manager.MyListener - After find by --->By.xpath: //button[text()='Submit']
+18:15:08.683 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: .dialog-container
+18:15:09.940 INFO  manager.MyListener - After find by --->By.cssSelector: .dialog-container
+18:15:09.960 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: .dialog-container h1
+18:15:09.976 INFO  manager.MyListener - After find by --->By.cssSelector: .dialog-container h1
+18:15:09.990 INFO  manager.MyListener - Start find element by locator --->By.xpath: //*[text()='Search cars']
+18:15:10.009 INFO  manager.MyListener - After find by --->By.xpath: //*[text()='Search cars']
+18:15:10.064 INFO  tests.TestBase - SL: Name of method--->addNewCarSuccess
+18:15:10.064 INFO  manager.MyListener - Start find element by locator --->By.xpath: //a[text()=' Logout ']
+18:15:10.091 INFO  manager.MyListener - After find by --->By.xpath: //a[text()=' Logout ']
+18:15:10.092 INFO  tests.TestBase - Tests start with car ---> Car(address=Tel Aviv,Israel, make=BMW, model=M5, year=2018, engine=2.5, fuel=Electric, gear=MT, wD=AWD, doors=4, seats=5, carClass=C, fuelConsumption=6.5, carRegNumber=345-35-910, price=80, distanceIncluded=700, features=type of features, about=very nice car)
+18:15:10.093 INFO  manager.MyListener - Start find element by locator --->By.id: 1
+18:15:10.114 INFO  manager.MyListener - After find by --->By.id: 1
+18:15:10.241 INFO  manager.MyListener - Start find element by locator --->By.id: pickUpPlace
+18:15:10.263 INFO  manager.MyListener - After find by --->By.id: pickUpPlace
+18:15:10.927 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: .pac-item
+18:15:10.951 INFO  manager.MyListener - After find by --->By.cssSelector: .pac-item
+18:15:11.503 INFO  manager.MyListener - Start find element by locator --->By.id: make
+18:15:11.538 INFO  manager.MyListener - After find by --->By.id: make
+18:15:11.703 INFO  manager.MyListener - Start find element by locator --->By.id: model
+18:15:11.714 INFO  manager.MyListener - After find by --->By.id: model
+18:15:11.830 INFO  manager.MyListener - Start find element by locator --->By.id: year
+18:15:11.840 INFO  manager.MyListener - After find by --->By.id: year
+18:15:11.967 INFO  manager.MyListener - Start find element by locator --->By.id: engine
+18:15:11.977 INFO  manager.MyListener - After find by --->By.id: engine
+18:15:12.093 INFO  manager.MyListener - Start find element by locator --->By.id: fuel
+18:15:12.116 INFO  manager.MyListener - After find by --->By.id: fuel
+18:15:12.131 INFO  manager.MyListener - Start find element by locator --->By.xpath: .//option[@value = "Electric"]
+18:15:12.150 INFO  manager.MyListener - After find by --->By.xpath: .//option[@value = "Electric"]
+18:15:12.195 INFO  manager.MyListener - Start find element by locator --->By.id: gear
+18:15:12.211 INFO  manager.MyListener - After find by --->By.id: gear
+18:15:12.242 INFO  manager.MyListener - Start find element by locator --->By.xpath: .//option[@value = "MT"]
+18:15:12.263 INFO  manager.MyListener - After find by --->By.xpath: .//option[@value = "MT"]
+18:15:12.306 INFO  manager.MyListener - Start find element by locator --->By.id: wheelsDrive
+18:15:12.317 INFO  manager.MyListener - After find by --->By.id: wheelsDrive
+18:15:12.332 INFO  manager.MyListener - Start find element by locator --->By.xpath: .//option[@value = "AWD"]
+18:15:12.354 INFO  manager.MyListener - After find by --->By.xpath: .//option[@value = "AWD"]
+18:15:12.394 INFO  manager.MyListener - Start find element by locator --->By.id: doors
+18:15:12.410 INFO  manager.MyListener - After find by --->By.id: doors
+18:15:12.539 INFO  manager.MyListener - Start find element by locator --->By.id: seats
+18:15:12.555 INFO  manager.MyListener - After find by --->By.id: seats
+18:15:12.692 INFO  manager.MyListener - Start find element by locator --->By.id: class
+18:15:12.705 INFO  manager.MyListener - After find by --->By.id: class
+18:15:12.816 INFO  manager.MyListener - Start find element by locator --->By.id: fuelConsumption
+18:15:12.829 INFO  manager.MyListener - After find by --->By.id: fuelConsumption
+18:15:12.967 INFO  manager.MyListener - Start find element by locator --->By.id: serialNumber
+18:15:12.983 INFO  manager.MyListener - After find by --->By.id: serialNumber
+18:15:13.124 INFO  manager.MyListener - Start find element by locator --->By.id: price
+18:15:13.141 INFO  manager.MyListener - After find by --->By.id: price
+18:15:13.279 INFO  manager.MyListener - Start find element by locator --->By.id: distance
+18:15:13.293 INFO  manager.MyListener - After find by --->By.id: distance
+18:15:13.428 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: input[placeholder='Type feature']
+18:15:13.450 INFO  manager.MyListener - After find by --->By.cssSelector: input[placeholder='Type feature']
+18:15:13.591 INFO  manager.MyListener - Start find element by locator --->By.id: about
+18:15:13.605 INFO  manager.MyListener - After find by --->By.id: about
+18:15:13.729 INFO  manager.MyListener - Start find element by locator --->By.id: photos
+18:15:13.745 INFO  manager.MyListener - After find by --->By.id: photos
+18:15:13.783 INFO  manager.MyListener - Start find element by locator --->By.xpath: //button[text()='Submit']
+18:15:13.806 INFO  manager.MyListener - After find by --->By.xpath: //button[text()='Submit']
+18:15:14.935 INFO  manager.MyListener - Start find element by locator --->By.xpath: //button[text()='Submit']
+18:15:14.943 INFO  manager.MyListener - After find by --->By.xpath: //button[text()='Submit']
+18:15:14.988 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: .dialog-container
+18:15:16.246 INFO  manager.MyListener - After find by --->By.cssSelector: .dialog-container
+18:15:16.278 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: .dialog-container h1
+18:15:16.290 INFO  manager.MyListener - After find by --->By.cssSelector: .dialog-container h1
+18:15:16.305 INFO  manager.MyListener - Start find element by locator --->By.xpath: //*[text()='Search cars']
+18:15:16.321 INFO  manager.MyListener - After find by --->By.xpath: //*[text()='Search cars']

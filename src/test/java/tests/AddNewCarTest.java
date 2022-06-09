@@ -21,6 +21,10 @@ public class AddNewCarTest extends TestBase {
 
  @Test(dataProvider = "carValidDataCSV",dataProviderClass = MyDataProvider.class)
     public void addNewCarSuccess(Car car){
+
+     int i = (int) (System.currentTimeMillis() / 1000) % 3600;
+     car.setCarRegNumber("345-35-"+i);
+
         logger.info("Tests start with car ---> "+car.toString());
         app.car().openCarForm();
         app.car().fillCarForm(car);

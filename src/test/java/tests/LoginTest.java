@@ -12,11 +12,12 @@ import java.util.Iterator;
 import java.util.List;
 
 public class LoginTest extends TestBase{
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition(){
         if(app.user().isLogOutPresent()){
             app.user().logout();
         }
+
     }
 
     @Test(dataProvider = "loginValidDataSTR", dataProviderClass = MyDataProvider.class)
@@ -35,7 +36,8 @@ public class LoginTest extends TestBase{
         app.user().clickOkButton();
     }
 
-    @Test(dataProvider = "loginValidDataAuth", dataProviderClass = MyDataProvider.class)
+
+    @Test(dataProvider = "loginValidDataAuth", dataProviderClass = MyDataProvider.class, groups = {"one","web", "smoke"})
     public void loginSuccessUser(Auth auth){
 
         logger.info("Test start with data: \"noa@gmail.com\", \"Nnoa12345$\"");

@@ -38,8 +38,6 @@ public class SearchTest extends TestBase {
 
     }
 
-
-
     @AfterMethod
     public void postCondition(){
        app.search().returnToHome();

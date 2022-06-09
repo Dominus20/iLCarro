@@ -1,0 +1,151 @@
+18:15:24.176 INFO  manager.ApplicationManager - Tests start in Chrome driver
+18:15:25.403 INFO  manager.ApplicationManager - The link of project -->https://ilcarro-1578153671498.web.app/search
+18:15:25.436 INFO  tests.TestBase - SL: Name of method--->loginSuccessAuth
+18:15:25.437 INFO  manager.MyListener - Start find element by locator --->By.xpath: //a[text()=' Logout ']
+18:15:30.503 INFO  manager.MyListener - After find by --->By.xpath: //a[text()=' Logout ']
+18:15:30.505 INFO  tests.TestBase - Name of method is loginSuccessAuth: 
+18:15:30.505 INFO  tests.TestBase - Test start with data: noa@gmail.com     Nnoa12345$
+18:15:30.505 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: [href^='/login']
+18:15:30.524 INFO  manager.MyListener - After find by --->By.cssSelector: [href^='/login']
+18:15:30.615 INFO  manager.MyListener - Start find element by locator --->By.id: email
+18:15:30.645 INFO  manager.MyListener - After find by --->By.id: email
+18:15:30.783 INFO  manager.MyListener - Start find element by locator --->By.id: password
+18:15:30.803 INFO  manager.MyListener - After find by --->By.id: password
+18:15:30.935 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: button[type='submit']
+18:15:30.957 INFO  manager.MyListener - After find by --->By.cssSelector: button[type='submit']
+18:15:31.018 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: .dialog-container
+18:15:31.770 INFO  manager.MyListener - After find by --->By.cssSelector: .dialog-container
+18:15:31.810 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: .dialog-container h2
+18:15:31.835 INFO  manager.MyListener - After find by --->By.cssSelector: .dialog-container h2
+18:15:31.855 INFO  tests.TestBase - Assert check message: "Logged in success"
+18:15:31.856 INFO  manager.MyListener - Start find element by locator --->By.xpath: //button[text()='Ok']
+18:15:31.884 INFO  manager.MyListener - After find by --->By.xpath: //button[text()='Ok']
+18:15:31.942 INFO  tests.TestBase - SL: Name of method--->loginSuccessAuth
+18:15:31.943 INFO  manager.MyListener - Start find element by locator --->By.xpath: //a[text()=' Logout ']
+18:15:31.957 INFO  manager.MyListener - After find by --->By.xpath: //a[text()=' Logout ']
+18:15:31.957 INFO  manager.MyListener - Start find element by locator --->By.xpath: //a[text()=' Logout ']
+18:15:31.977 INFO  manager.MyListener - After find by --->By.xpath: //a[text()=' Logout ']
+18:15:32.052 INFO  tests.TestBase - Name of method is loginSuccessAuth: 
+18:15:32.052 INFO  tests.TestBase - Test start with data: noa@gmail.com     Nnoa12345$
+18:15:32.052 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: [href^='/login']
+18:15:32.064 INFO  manager.MyListener - After find by --->By.cssSelector: [href^='/login']
+18:15:32.124 INFO  manager.MyListener - Start find element by locator --->By.id: email
+18:15:32.141 INFO  manager.MyListener - After find by --->By.id: email
+18:15:32.283 INFO  manager.MyListener - Start find element by locator --->By.id: password
+18:15:32.297 INFO  manager.MyListener - After find by --->By.id: password
+18:15:32.437 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: button[type='submit']
+18:15:32.452 INFO  manager.MyListener - After find by --->By.cssSelector: button[type='submit']
+18:15:32.503 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: .dialog-container
+18:15:33.013 INFO  manager.MyListener - After find by --->By.cssSelector: .dialog-container
+18:15:33.035 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: .dialog-container h2
+18:15:33.045 INFO  manager.MyListener - After find by --->By.cssSelector: .dialog-container h2
+18:15:33.057 INFO  tests.TestBase - Assert check message: "Logged in success"
+18:15:33.057 INFO  manager.MyListener - Start find element by locator --->By.xpath: //button[text()='Ok']
+18:15:33.076 INFO  manager.MyListener - After find by --->By.xpath: //button[text()='Ok']
+18:15:33.116 INFO  tests.TestBase - SL: Name of method--->loginSuccessAuth
+18:15:33.117 INFO  manager.MyListener - Start find element by locator --->By.xpath: //a[text()=' Logout ']
+18:15:33.136 INFO  manager.MyListener - After find by --->By.xpath: //a[text()=' Logout ']
+18:15:33.136 INFO  manager.MyListener - Start find element by locator --->By.xpath: //a[text()=' Logout ']
+18:15:33.152 INFO  manager.MyListener - After find by --->By.xpath: //a[text()=' Logout ']
+18:15:33.225 INFO  tests.TestBase - Name of method is loginSuccessAuth: 
+18:15:33.225 INFO  tests.TestBase - Test start with data: noa@gmail.com     Nnoa12345$
+18:15:33.226 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: [href^='/login']
+18:15:33.248 INFO  manager.MyListener - After find by --->By.cssSelector: [href^='/login']
+18:15:33.300 INFO  manager.MyListener - Start find element by locator --->By.id: email
+18:15:33.323 INFO  manager.MyListener - After find by --->By.id: email
+18:15:33.458 INFO  manager.MyListener - Start find element by locator --->By.id: password
+18:15:33.480 INFO  manager.MyListener - After find by --->By.id: password
+18:15:33.597 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: button[type='submit']
+18:15:33.619 INFO  manager.MyListener - After find by --->By.cssSelector: button[type='submit']
+18:15:33.668 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: .dialog-container
+18:15:34.192 INFO  manager.MyListener - After find by --->By.cssSelector: .dialog-container
+18:15:34.223 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: .dialog-container h2
+18:15:34.233 INFO  manager.MyListener - After find by --->By.cssSelector: .dialog-container h2
+18:15:34.247 INFO  tests.TestBase - Assert check message: "Logged in success"
+18:15:34.247 INFO  manager.MyListener - Start find element by locator --->By.xpath: //button[text()='Ok']
+18:15:34.266 INFO  manager.MyListener - After find by --->By.xpath: //button[text()='Ok']
+18:15:34.304 INFO  tests.TestBase - SL: Name of method--->loginSuccessAuth
+18:15:34.305 INFO  manager.MyListener - Start find element by locator --->By.xpath: //a[text()=' Logout ']
+18:15:34.328 INFO  manager.MyListener - After find by --->By.xpath: //a[text()=' Logout ']
+18:15:34.328 INFO  manager.MyListener - Start find element by locator --->By.xpath: //a[text()=' Logout ']
+18:15:34.342 INFO  manager.MyListener - After find by --->By.xpath: //a[text()=' Logout ']
+18:15:34.415 INFO  tests.TestBase - Name of method is loginSuccessAuth: 
+18:15:34.415 INFO  tests.TestBase - Test start with data: noa@gmail.com     Nnoa12345$
+18:15:34.416 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: [href^='/login']
+18:15:34.434 INFO  manager.MyListener - After find by --->By.cssSelector: [href^='/login']
+18:15:34.486 INFO  manager.MyListener - Start find element by locator --->By.id: email
+18:15:34.502 INFO  manager.MyListener - After find by --->By.id: email
+18:15:34.673 INFO  manager.MyListener - Start find element by locator --->By.id: password
+18:15:34.712 INFO  manager.MyListener - After find by --->By.id: password
+18:15:34.853 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: button[type='submit']
+18:15:34.879 INFO  manager.MyListener - After find by --->By.cssSelector: button[type='submit']
+18:15:34.964 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: .dialog-container
+18:15:35.440 INFO  manager.MyListener - After find by --->By.cssSelector: .dialog-container
+18:15:35.463 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: .dialog-container h2
+18:15:35.487 INFO  manager.MyListener - After find by --->By.cssSelector: .dialog-container h2
+18:15:35.507 INFO  tests.TestBase - Assert check message: "Logged in success"
+18:15:35.507 INFO  manager.MyListener - Start find element by locator --->By.xpath: //button[text()='Ok']
+18:15:35.522 INFO  manager.MyListener - After find by --->By.xpath: //button[text()='Ok']
+18:15:35.566 INFO  tests.TestBase - SL: Name of method--->loginSuccessUser
+18:15:35.566 INFO  manager.MyListener - Start find element by locator --->By.xpath: //a[text()=' Logout ']
+18:15:35.584 INFO  manager.MyListener - After find by --->By.xpath: //a[text()=' Logout ']
+18:15:35.584 INFO  manager.MyListener - Start find element by locator --->By.xpath: //a[text()=' Logout ']
+18:15:35.599 INFO  manager.MyListener - After find by --->By.xpath: //a[text()=' Logout ']
+18:15:35.666 INFO  tests.TestBase - Test start with data: "noa@gmail.com", "Nnoa12345$"
+18:15:35.667 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: [href^='/login']
+18:15:35.680 INFO  manager.MyListener - After find by --->By.cssSelector: [href^='/login']
+18:15:35.733 INFO  manager.MyListener - Start find element by locator --->By.id: email
+18:15:35.744 INFO  manager.MyListener - After find by --->By.id: email
+18:15:35.882 INFO  manager.MyListener - Start find element by locator --->By.id: password
+18:15:35.899 INFO  manager.MyListener - After find by --->By.id: password
+18:15:36.021 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: button[type='submit']
+18:15:36.038 INFO  manager.MyListener - After find by --->By.cssSelector: button[type='submit']
+18:15:36.096 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: .dialog-container
+18:15:36.689 INFO  manager.MyListener - After find by --->By.cssSelector: .dialog-container
+18:15:36.707 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: .dialog-container h2
+18:15:36.718 INFO  manager.MyListener - After find by --->By.cssSelector: .dialog-container h2
+18:15:36.731 INFO  tests.TestBase - Assert check message: "Logged in success"
+18:15:36.731 INFO  manager.MyListener - Start find element by locator --->By.xpath: //button[text()='Ok']
+18:15:36.750 INFO  manager.MyListener - After find by --->By.xpath: //button[text()='Ok']
+18:15:36.790 INFO  tests.TestBase - SL: Name of method--->loginSuccessUser
+18:15:36.792 INFO  manager.MyListener - Start find element by locator --->By.xpath: //a[text()=' Logout ']
+18:15:36.812 INFO  manager.MyListener - After find by --->By.xpath: //a[text()=' Logout ']
+18:15:36.812 INFO  manager.MyListener - Start find element by locator --->By.xpath: //a[text()=' Logout ']
+18:15:36.827 INFO  manager.MyListener - After find by --->By.xpath: //a[text()=' Logout ']
+18:15:36.890 INFO  tests.TestBase - Test start with data: "noa@gmail.com", "Nnoa12345$"
+18:15:36.891 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: [href^='/login']
+18:15:36.905 INFO  manager.MyListener - After find by --->By.cssSelector: [href^='/login']
+18:15:36.956 INFO  manager.MyListener - Start find element by locator --->By.id: email
+18:15:36.968 INFO  manager.MyListener - After find by --->By.id: email
+18:15:37.104 INFO  manager.MyListener - Start find element by locator --->By.id: password
+18:15:37.122 INFO  manager.MyListener - After find by --->By.id: password
+18:15:37.244 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: button[type='submit']
+18:15:37.264 INFO  manager.MyListener - After find by --->By.cssSelector: button[type='submit']
+18:15:37.318 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: .dialog-container
+18:15:37.829 INFO  manager.MyListener - After find by --->By.cssSelector: .dialog-container
+18:15:37.850 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: .dialog-container h2
+18:15:37.863 INFO  manager.MyListener - After find by --->By.cssSelector: .dialog-container h2
+18:15:37.876 INFO  tests.TestBase - Assert check message: "Logged in success"
+18:15:37.876 INFO  manager.MyListener - Start find element by locator --->By.xpath: //button[text()='Ok']
+18:15:37.892 INFO  manager.MyListener - After find by --->By.xpath: //button[text()='Ok']
+18:15:37.931 INFO  tests.TestBase - SL: Name of method--->loginSuccessUser
+18:15:37.932 INFO  manager.MyListener - Start find element by locator --->By.xpath: //a[text()=' Logout ']
+18:15:37.956 INFO  manager.MyListener - After find by --->By.xpath: //a[text()=' Logout ']
+18:15:37.956 INFO  manager.MyListener - Start find element by locator --->By.xpath: //a[text()=' Logout ']
+18:15:37.969 INFO  manager.MyListener - After find by --->By.xpath: //a[text()=' Logout ']
+18:15:38.034 INFO  tests.TestBase - Test start with data: "noa@gmail.com", "Nnoa12345$"
+18:15:38.035 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: [href^='/login']
+18:15:38.050 INFO  manager.MyListener - After find by --->By.cssSelector: [href^='/login']
+18:15:38.102 INFO  manager.MyListener - Start find element by locator --->By.id: email
+18:15:38.114 INFO  manager.MyListener - After find by --->By.id: email
+18:15:38.270 INFO  manager.MyListener - Start find element by locator --->By.id: password
+18:15:38.281 INFO  manager.MyListener - After find by --->By.id: password
+18:15:38.406 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: button[type='submit']
+18:15:38.422 INFO  manager.MyListener - After find by --->By.cssSelector: button[type='submit']
+18:15:38.470 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: .dialog-container
+18:15:38.983 INFO  manager.MyListener - After find by --->By.cssSelector: .dialog-container
+18:15:39.001 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: .dialog-container h2
+18:15:39.014 INFO  manager.MyListener - After find by --->By.cssSelector: .dialog-container h2
+18:15:39.026 INFO  tests.TestBase - Assert check message: "Logged in success"
+18:15:39.026 INFO  manager.MyListener - Start find element by locator --->By.xpath: //button[text()='Ok']
+18:15:39.047 INFO  manager.MyListener - After find by --->By.xpath: //button[text()='Ok']

@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 public class TestWiki {
     WebDriver wd;
 
-    @Test
+    @Test(enabled = false)
     public void openWikipedia() throws InterruptedException {
         wd = new ChromeDriver();
         wd.get("https://wikipedia.org");

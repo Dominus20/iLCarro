@@ -1,0 +1,51 @@
+18:36:45.312 INFO  manager.ApplicationManager - Tests start in Chrome driver
+18:36:46.698 INFO  manager.ApplicationManager - The link of project -->https://ilcarro-1578153671498.web.app/search
+18:36:46.703 INFO  manager.MyListenerNG - onStart
+18:36:46.730 INFO  tests.TestBase - SL: Name of method--->addNewCarSuccess
+18:36:46.732 INFO  manager.MyListener - Start find element by locator --->By.xpath: //a[text()=' Logout ']
+18:36:50.914 INFO  manager.MyListener - After find by --->By.xpath: //a[text()=' Logout ']
+18:36:50.915 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: [href^='/login']
+18:36:50.947 INFO  manager.MyListenerNG - onTestStart
+18:36:50.950 INFO  manager.MyListenerNG - onTestSkipped
+18:36:50.953 INFO  manager.MyListenerNG - onTestStart
+18:36:50.957 INFO  manager.MyListenerNG - onTestSkipped
+18:36:50.963 INFO  tests.TestBase - SL: Name of method--->loginSuccessAuth
+18:36:50.965 INFO  manager.MyListener - Start find element by locator --->By.xpath: //a[text()=' Logout ']
+18:36:50.994 INFO  manager.MyListenerNG - onTestStart
+18:36:50.994 INFO  manager.MyListenerNG - onTestSkipped
+18:36:50.995 INFO  manager.MyListenerNG - onTestStart
+18:36:50.995 INFO  manager.MyListenerNG - onTestSkipped
+18:36:50.996 INFO  manager.MyListenerNG - onTestStart
+18:36:50.997 INFO  manager.MyListenerNG - onTestSkipped
+18:36:50.998 INFO  manager.MyListenerNG - onTestStart
+18:36:50.999 INFO  manager.MyListenerNG - onTestSkipped
+18:36:51.002 INFO  manager.MyListenerNG - onTestStart
+18:36:51.002 INFO  manager.MyListenerNG - onTestSkipped
+18:36:51.003 INFO  manager.MyListenerNG - onTestStart
+18:36:51.003 INFO  manager.MyListenerNG - onTestSkipped
+18:36:51.004 INFO  manager.MyListenerNG - onTestStart
+18:36:51.005 INFO  manager.MyListenerNG - onTestSkipped
+18:36:51.007 INFO  tests.TestBase - SL: Name of method--->registrationSuccess
+18:36:51.007 INFO  manager.MyListener - Start find element by locator --->By.xpath: //a[text()=' Logout ']
+18:36:51.021 INFO  manager.MyListenerNG - onTestStart
+18:36:51.022 INFO  manager.MyListenerNG - onTestSkipped
+18:36:51.024 INFO  manager.MyListenerNG - onTestStart
+18:36:51.025 INFO  manager.MyListenerNG - onTestSkipped
+18:36:51.027 INFO  manager.MyListenerNG - onTestStart
+18:36:51.027 INFO  manager.MyListenerNG - onTestSkipped
+18:36:51.029 INFO  manager.MyListenerNG - onTestStart
+18:36:51.030 INFO  manager.MyListenerNG - onTestSkipped
+18:36:51.032 INFO  manager.MyListenerNG - onTestStart
+18:36:51.032 INFO  manager.MyListenerNG - onTestSkipped
+18:36:51.035 INFO  manager.MyListenerNG - onTestStart
+18:36:51.035 INFO  manager.MyListenerNG - onTestSkipped
+18:36:51.036 INFO  tests.TestBase - SL: Name of method--->searchPeriodAnyDataInFuture
+18:36:51.037 INFO  manager.MyListenerNG - onTestStart
+18:36:51.038 INFO  manager.MyListener - Start find element by locator --->By.id: city
+18:36:51.052 INFO  manager.MyListenerNG - onTestFailure
+18:36:51.053 INFO  manager.MyListener - Start find element by locator --->By.cssSelector: .header a[href='/']
+18:36:51.066 INFO  manager.MyListenerNG - onTestStart
+18:36:51.066 INFO  manager.MyListenerNG - onTestSkipped
+18:36:51.068 INFO  manager.MyListenerNG - onTestStart
+18:36:51.069 INFO  manager.MyListenerNG - onTestSkipped
+18:36:51.070 INFO  manager.MyListenerNG - onFinish
