@@ -14,6 +14,7 @@ import java.util.concurrent.TimeUnit;
 public class ApplicationManager {
     Logger logger = LoggerFactory.getLogger(ApplicationManager.class);
     EventFiringWebDriver wd;
+
     // WebDriver wd;
     HelperUser user;
     HelperCar car;

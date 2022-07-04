@@ -9,6 +9,7 @@ import org.slf4j.LoggerFactory;
 import java.io.File;
 import java.io.IOException;
 
+
 public class MyListener extends AbstractWebDriverEventListener {
     Logger logger = LoggerFactory.getLogger(MyListener.class);
     public MyListener() {
